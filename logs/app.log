@@ -259,3 +259,45 @@
 {"dbName":"chat-support","level":"info","message":"MongoDB connected successfully","service":"chat-support-backend","timestamp":"2025-08-29 23:03:25","uri":"mongodb+srv://***:***@cluster0.flto5mh.mongodb.net/chat-support?retryWrites=true&w=majority&appName=Cluster0"}
 {"level":"info","message":"Default agents initialized","service":"chat-support-backend","timestamp":"2025-08-29 23:03:25"}
 {"database":"connected","environment":"development","frontendUrl":"http://localhost:5173","level":"info","message":"Chat Support Server Started","port":"5000","service":"chat-support-backend","timestamp":"2025-08-29 23:03:25"}
+{"dbName":"chat-support","level":"info","message":"MongoDB connected successfully","service":"chat-support-backend","timestamp":"2025-08-30 12:21:37","uri":"mongodb+srv://***:***@cluster0.flto5mh.mongodb.net/chat-support?retryWrites=true&w=majority&appName=Cluster0"}
+{"level":"info","message":"Default agents initialized","service":"chat-support-backend","timestamp":"2025-08-30 12:21:37"}
+{"database":"connected","environment":"development","frontendUrl":"http://localhost:5173","level":"info","message":"Chat Support Server Started","port":"5000","service":"chat-support-backend","timestamp":"2025-08-30 12:21:37"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"chat-support-backend","timestamp":"2025-08-30 12:22:18","url":"/","userAgent":"PostmanRuntime/7.45.0"}
+{"duration":"9ms","level":"info","message":"Request completed","method":"GET","service":"chat-support-backend","statusCode":200,"timestamp":"2025-08-30 12:22:18","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","service":"chat-support-backend","timestamp":"2025-08-30 12:22:31","url":"/api/auth/token","userAgent":"PostmanRuntime/7.45.0"}
+{"expiresInDays":30,"level":"info","message":"JWT issued","service":"chat-support-backend","timestamp":"2025-08-30 12:22:31","userId":"user123","userType":"user"}
+{"duration":"10ms","level":"info","message":"Request completed","method":"POST","service":"chat-support-backend","statusCode":201,"timestamp":"2025-08-30 12:22:31","url":"/auth/token"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","service":"chat-support-backend","timestamp":"2025-08-30 12:23:10","url":"/api/chat/start-session","userAgent":"PostmanRuntime/7.45.0"}
+{"level":"info","message":"JWT authentication successful","method":"POST","service":"chat-support-backend","timestamp":"2025-08-30 12:23:10","url":"/start-session","userId":"user123"}
+{"agentId":"68b1da555b74c271f9f1eb21","level":"info","message":"Session created","service":"chat-support-backend","sessionId":"68b29fd685d4e8840e46e34b","timestamp":"2025-08-30 12:23:11","userId":"user123","userType":"user"}
+{"agentId":"68b1da555b74c271f9f1eb21","level":"info","message":"Chat session started via API","service":"chat-support-backend","sessionId":"68b29fd685d4e8840e46e34b","status":"active","timestamp":"2025-08-30 12:23:11","userId":"user123","userType":"user"}
+{"duration":"1062ms","level":"info","message":"Request completed","method":"POST","service":"chat-support-backend","statusCode":201,"timestamp":"2025-08-30 12:23:11","url":"/start-session"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"chat-support-backend","timestamp":"2025-08-30 12:23:50","url":"/api/health","userAgent":"PostmanRuntime/7.45.0"}
+{"dbStatus":"connected","level":"info","message":"Health check performed","service":"chat-support-backend","status":"healthy","timestamp":"2025-08-30 12:23:50","uptime":140.3241109}
+{"duration":"63ms","level":"info","message":"Request completed","method":"GET","service":"chat-support-backend","statusCode":200,"timestamp":"2025-08-30 12:23:50","url":"/health"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"chat-support-backend","timestamp":"2025-08-30 12:24:43","url":"/api/chat/session/68b29fd685d4e8840e46e34b","userAgent":"PostmanRuntime/7.45.0"}
+{"level":"info","message":"JWT authentication successful","method":"GET","service":"chat-support-backend","timestamp":"2025-08-30 12:24:43","url":"/session/68b29fd685d4e8840e46e34b","userId":"user123"}
+{"duration":"322ms","level":"info","message":"Request completed","method":"GET","service":"chat-support-backend","statusCode":200,"timestamp":"2025-08-30 12:24:43","url":"/session/68b29fd685d4e8840e46e34b"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"chat-support-backend","timestamp":"2025-08-30 12:25:38","url":"/api/chat/session/68b29fd685d4e8840e46e34b","userAgent":"PostmanRuntime/7.45.0"}
+{"level":"info","message":"JWT authentication successful","method":"GET","service":"chat-support-backend","timestamp":"2025-08-30 12:25:38","url":"/session/68b29fd685d4e8840e46e34b","userId":"user123"}
+{"duration":"456ms","level":"info","message":"Request completed","method":"GET","service":"chat-support-backend","statusCode":200,"timestamp":"2025-08-30 12:25:38","url":"/session/68b29fd685d4e8840e46e34b"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","service":"chat-support-backend","timestamp":"2025-08-30 12:26:23","url":"/api/chat/send-message/68b29fd685d4e8840e46e34b","userAgent":"PostmanRuntime/7.45.0"}
+{"level":"info","message":"JWT authentication successful","method":"POST","service":"chat-support-backend","timestamp":"2025-08-30 12:26:23","url":"/send-message/68b29fd685d4e8840e46e34b","userId":"user123"}
+{"level":"info","message":"Message added to session","messageId":"68b2a09885d4e8840e46e35a","senderType":"user","service":"chat-support-backend","sessionId":"68b29fd685d4e8840e46e34b","timestamp":"2025-08-30 12:26:24"}
+{"level":"info","message":"Message sent via HTTP API","messageId":"68b2a09885d4e8840e46e35a","messageLength":32,"senderId":"user123","senderType":"user","service":"chat-support-backend","sessionId":"68b29fd685d4e8840e46e34b","timestamp":"2025-08-30 12:26:24"}
+{"duration":"518ms","level":"info","message":"Request completed","method":"POST","service":"chat-support-backend","statusCode":201,"timestamp":"2025-08-30 12:26:24","url":"/send-message/68b29fd685d4e8840e46e34b"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","service":"chat-support-backend","timestamp":"2025-08-30 12:27:10","url":"/api/chat/end-session/68b29fd685d4e8840e46e34b","userAgent":"PostmanRuntime/7.45.0"}
+{"level":"info","message":"JWT authentication successful","method":"POST","service":"chat-support-backend","timestamp":"2025-08-30 12:27:10","url":"/end-session/68b29fd685d4e8840e46e34b","userId":"user123"}
+{"duration":240017,"level":"info","message":"Session ended","reason":"User ended session","service":"chat-support-backend","sessionId":"68b29fd685d4e8840e46e34b","timestamp":"2025-08-30 12:27:11"}
+{"agentId":"68b1da555b74c271f9f1eb21","duration":240017,"level":"info","message":"Chat session ended via API","reason":"User ended session","service":"chat-support-backend","sessionId":"68b29fd685d4e8840e46e34b","timestamp":"2025-08-30 12:27:11"}
+{"duration":"800ms","level":"info","message":"Request completed","method":"POST","service":"chat-support-backend","statusCode":200,"timestamp":"2025-08-30 12:27:11","url":"/end-session/68b29fd685d4e8840e46e34b"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"chat-support-backend","timestamp":"2025-08-30 12:27:36","url":"/api/chat/stats","userAgent":"PostmanRuntime/7.45.0"}
+{"error":"invalid signature","level":"warn","message":"JWT authentication failed","method":"GET","service":"chat-support-backend","timestamp":"2025-08-30 12:27:36","url":"/stats"}
+{"duration":"3ms","level":"info","message":"Request completed","method":"GET","service":"chat-support-backend","statusCode":403,"timestamp":"2025-08-30 12:27:36","url":"/stats"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"chat-support-backend","timestamp":"2025-08-30 12:27:59","url":"/api/chat/stats","userAgent":"PostmanRuntime/7.45.0"}
+{"level":"info","message":"JWT authentication successful","method":"GET","service":"chat-support-backend","timestamp":"2025-08-30 12:27:59","url":"/stats","userId":"user123"}
+{"activeSessions":0,"level":"info","message":"System stats requested","requestedBy":"user123","service":"chat-support-backend","timestamp":"2025-08-30 12:27:59","totalAgents":3}
+{"duration":"588ms","level":"info","message":"Request completed","method":"GET","service":"chat-support-backend","statusCode":200,"timestamp":"2025-08-30 12:27:59","url":"/stats"}
+{"level":"warn","message":"MongoDB disconnected","service":"chat-support-backend","timestamp":"2025-08-30 15:32:57"}
+{"level":"info","message":"MongoDB reconnected","service":"chat-support-backend","timestamp":"2025-08-30 15:33:08"}
+{"level":"info","message":"SIGINT received. Shutting down gracefully...","service":"chat-support-backend","timestamp":"2025-08-30 15:35:19"}
